@@ -1,0 +1,48 @@
+ body {
+    background: url("https://i.pinimg.com/originals/78/aa/5d/78aa5d0531111e308410016a81fea28f.jpg");
+ }
+ 
+ #container {
+        width: 60%;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: gray;
+        margin: 10% auto;
+        text-align: center;
+        border: 3px solid;
+        border-color: purple;
+        font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: purple;
+
+}
+
+
+
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystal{
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s, transform 2s;
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    transform: translate(5px,40px);
+    padding: 5px;
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+}
+
+img{
+    width: 50px;
+}
