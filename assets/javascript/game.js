@@ -57,7 +57,7 @@ $(document).on("click", ".crystal", function() {
 
   if (previous > randomResult) {
     loss++;
-    $("#loss").html("Losses:" + loss);
+    $("#loss").html("Losses: " + loss);
     previous = 0;
 
     // console.log("You Lost");
